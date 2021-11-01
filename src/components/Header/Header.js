@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from '../Navigation/Navbar.js';
+import Navigation from '../Navigation/Navigation';
+import './Header.scss'
 
 
 
 const Header = () => {
     return ( 
         <div>
-            <Navbar/>
+            <Navigation/>
         </div>
      );
 }
