@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   .main {
+    padding: 0;
     #dropdown {
       border: 1px solid #afb0b9;
       border-radius: 0.3rem;
@@ -11,6 +12,6 @@
   }
 
   #main_img {
-    width: 40vw;
+    width: 50%;
   }
 }

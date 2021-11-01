@@ -5,22 +5,25 @@ import HeaderImg from "../assets/img/header.png";
 
 const Home = () => {
     return ( 
-        <header>
-            <section className="main">
+        <section className="header">
+            <article className="main">
                 <div>
                     <h1>Explore and Travel</h1>
                     <h4>Holiday finder</h4>
                 </div>
                 <div className="dropdowns">
-                    <select name="Location" id="dropdown">Location</select>
+                    <select name="Location" id="dropdown" placeholder="Location">Location</select>
                     
                     <select name="Activity" id="dropdown">Activity</select>
-                    <input type="submit" value="Explore" className="BtnOrange" />
+                    
                 </div>
+                <input type="submit" value="Explore" className="BtnExplore" />
               
-            </section>
-            <img src={HeaderImg} id="main_img" alt="headerimg" />
-        </header>
+            </article>s
+     
+             <img src={HeaderImg} id="main_img" alt="headerimg" />
+           
+        </section>
       
      );
 }
